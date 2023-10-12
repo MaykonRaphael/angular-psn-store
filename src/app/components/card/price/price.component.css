@@ -1,0 +1,33 @@
+.container {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  background: #0008;
+  color: antiquewhite;
+  font-family: Calibri;
+}
+
+.title {
+
+}
+
+.value {
+  display: flex;
+  justify-content: space-between;
+}
+
+.console {
+  display: flex;
+  gap: 10px;
+}
+
+.console > span {
+  font-weight: bold;
+  color: aqua;
+}

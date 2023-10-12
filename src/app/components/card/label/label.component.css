@@ -1,0 +1,15 @@
+.container {
+  position: absolute;
+  right: 0;
+  bottom: 70px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  background: #0D0D0D;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 40px;
+}
