@@ -1,32 +1,9 @@
 <div class="container">
   <app-card
-    gameImage="assets/ac-cover.jpg"
-    gameLabel="GAME OF THE YEAR"
-    gamePrice="R$ 269.90"
-    gameType="DISC PS3 | PS4"
-  ></app-card>
-  <app-card
-    gameImage="assets/ac-cover.jpg"
-    gameLabel="GAME OF THE YEAR"
-    gamePrice="R$ 269.90"
-    gameType="DISC PS3 | PS4"
-  ></app-card>
-  <app-card
-    gameImage="assets/ac-cover.jpg"
-    gameLabel="GAME OF THE YEAR"
-    gamePrice="R$ 269.90"
-    gameType="DISC PS3 | PS4"
-  ></app-card>
-  <app-card
-    gameImage="assets/ac-cover.jpg"
-    gameLabel="GAME OF THE YEAR"
-    gamePrice="R$ 269.90"
-    gameType="DISC PS3 | PS4"
-  ></app-card>
-  <app-card
-    gameImage="assets/ac-cover.jpg"
-    gameLabel="GAME OF THE YEAR"
-    gamePrice="R$ 269.90"
-    gameType="DISC PS3 | PS4"
+    *ngFor="let i of gameData"
+    gameImage="{{i.gameImage}}"
+    gameLabel="{{i.gameLabel}}"
+    gamePrice="{{i.gamePrice}}"
+    gameType="{{i.gameType}}"
   ></app-card>
 </div>
