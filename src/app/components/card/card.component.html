@@ -1,11 +1,11 @@
 <a href="#" class="container">
   <img
-    src="assets/bt-hardline.jpg"
+    [src]="[gameImage]"
     alt="Game image"
   >
-  <app-label gameLabel="Exclusive"></app-label>
+  <app-label gameLabel="{{gameLabel}}"></app-label>
   <app-price
-    gameType="DIGITAL PS4"
-    gamePrice="R$ 329,90"
+    gameType="{{gameType}}"
+    gamePrice="{{gamePrice}}"
   ></app-price>
 </a>

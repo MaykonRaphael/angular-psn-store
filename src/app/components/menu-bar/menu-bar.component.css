@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  position: fixed;
   z-index: 999;
   background: #FFF;
   width: 100vw;
